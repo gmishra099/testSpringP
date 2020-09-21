@@ -18,10 +18,6 @@ public class Contact {
 	private String Id;
 	@Column(name = "firstName")
 	private String firstName;
-	@Column(name = "lastName")
-	private String lastName;
-	@Column(name = "phone")
-	private String phone;
 	
 
 }
