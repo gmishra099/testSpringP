@@ -12,10 +12,10 @@ import lombok.Data;
 @Data
 @Entity
 @Builder
-@Table(name = "contact")
+@Table(name = "contact", schema="salesforce")
 public class Contact {
 	@Id
-	private String Id;
+	private String id;
 	@Column(name = "firstName")
 	private String firstName;
 	
